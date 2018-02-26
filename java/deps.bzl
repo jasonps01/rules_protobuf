@@ -94,12 +94,12 @@ DEPS = {
     },
     'com_google_protobuf_protobuf_java': {
         'rule': 'maven_jar',
-        'artifact': 'com.google.protobuf:protobuf-java:3.5.1',
+        'artifact': 'com.google.protobuf:protobuf-java:3.5.1.1',
         'sha1': '8c3492f7662fa1cbf8ca76a0f5eb1146f7725acd',
     },
     'com_google_protobuf_protobuf_java_util': {
         'rule': 'maven_jar',
-        'artifact': 'com.google.protobuf:protobuf-java-util:3.5.1',
+        'artifact': 'com.google.protobuf:protobuf-java-util:3.5.1.1',
         'sha1': '6e40a6a3f52455bd633aa2a0dba1a416e62b4575',
     },
     'com_squareup_okhttp_okhttp': {
@@ -154,7 +154,7 @@ DEPS = {
     },
     'io_grpc_grpc_protobuf_nano': {
         'rule': 'maven_jar',
-        'artifact': 'com.google.protobuf:protobuf-java:3.5.1',
+        'artifact': 'com.google.protobuf:protobuf-java:3.5.1.1',
         'sha1': '8c3492f7662fa1cbf8ca76a0f5eb1146f7725acd',
     },
     'io_grpc_grpc_stub': {
@@ -185,7 +185,7 @@ DEPS = {
     'io_netty_netty_codec_socks': {
         'rule': 'maven_jar',
         'artifact': 'io.netty:netty-codec-socks:4.1.17.Final',
-        'sha1': 'a159bf1f3d5019e0d561c92fbbec8400967471fa',
+        'sha1': 'a159bf1f3.5.1.19e0d561c92fbbec8400967471fa',
     },
     'io_netty_netty_common': {
         'rule': 'maven_jar',
