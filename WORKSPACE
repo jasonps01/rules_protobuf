@@ -8,10 +8,10 @@ load("//protobuf:rules.bzl", "github_archive")
 
 github_archive(
     name = "io_bazel_rules_go",
-    commit = "6d900bc95ae678bec5c91031b8e987957d2a7f93",  # post-0.7.0 (includes important cross-compile fixes)
+    commit = "f676870c5caf8df559a51e7aa005d2ece148a03b",  # 0.10.3
     org = "bazelbuild",
     repo = "rules_go",
-    sha256 = "d36baba631b29151434726eb204fa93ce8793b5f8ef96da452f382d77bd95c93",
+    sha256 = "d1740b1a75d3c51f1c37e5a42ed032d113bdf1de35c393c609940af491ab6035",
 )
 
 load("@io_bazel_rules_go//go:def.bzl", "go_rules_dependencies", "go_register_toolchains")
@@ -24,12 +24,13 @@ go_register_toolchains()
 # closure js_proto_library support requires rules_closure
 # ================================================================
 
+
 github_archive(
     name = "io_bazel_rules_closure",
-    commit = "f4d0633f14570313b94822223039ebda0f398102",
+    commit = "21b757480a1e3a67f1a25a8f27a404fc751e1477", # 0.6.0
     org = "bazelbuild",
     repo = "rules_closure",
-    sha256 = "8e615c1c282ba680e667549e242cfcc0643846ee7c0c8c816bee077b3edda567",
+    sha256 = "84687d2bc01fe2a0b45ec906bee87c5d336767e00d8cc8d40236c8804d5d5ced",
 )
 
 load("@io_bazel_rules_closure//closure:defs.bzl", "closure_repositories")
